@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D887B4A71D2180BE00366BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887B4A61D2180BE00366BE6 /* AppDelegate.swift */; };
+		D887B4AC1D2180BE00366BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D887B4AA1D2180BE00366BE6 /* Main.storyboard */; };
+		D887B4AE1D2180BE00366BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D887B4AD1D2180BE00366BE6 /* Assets.xcassets */; };
+		D887B4B11D2180BE00366BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D887B4AF1D2180BE00366BE6 /* LaunchScreen.storyboard */; };
+		D887B4B91D21812C00366BE6 /* FiverrTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887B4B81D21812C00366BE6 /* FiverrTableViewController.swift */; };
+		D887B4BC1D21851C00366BE6 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887B4BB1D21851C00366BE6 /* CategoryTableViewCell.swift */; };
+		D887B4BF1D21855900366BE6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887B4BE1D21855900366BE6 /* Category.swift */; };
+		D887B4C21D21895900366BE6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887B4C11D21895900366BE6 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D887B4A31D2180BE00366BE6 /* FiverrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiverrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887B4A61D2180BE00366BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D887B4AB1D2180BE00366BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D887B4AD1D2180BE00366BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D887B4B01D2180BE00366BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D887B4B21D2180BE00366BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887B4B81D21812C00366BE6 /* FiverrTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiverrTableViewController.swift; sourceTree = "<group>"; };
+		D887B4BB1D21851C00366BE6 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		D887B4BE1D21855900366BE6 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D887B4C11D21895900366BE6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D887B4A01D2180BE00366BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D887B49A1D2180BE00366BE6 = {
+			isa = PBXGroup;
+			children = (
+				D887B4A51D2180BE00366BE6 /* FiverrApp */,
+				D887B4A41D2180BE00366BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D887B4A41D2180BE00366BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D887B4A31D2180BE00366BE6 /* FiverrApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D887B4A51D2180BE00366BE6 /* FiverrApp */ = {
+			isa = PBXGroup;
+			children = (
+				D887B4A61D2180BE00366BE6 /* AppDelegate.swift */,
+				D887B4C01D21856200366BE6 /* Models */,
+				D887B4BD1D21852B00366BE6 /* Views */,
+				D887B4BA1D2184D700366BE6 /* Controllers */,
+				D887B4AA1D2180BE00366BE6 /* Main.storyboard */,
+				D887B4AD1D2180BE00366BE6 /* Assets.xcassets */,
+				D887B4AF1D2180BE00366BE6 /* LaunchScreen.storyboard */,
+				D887B4B21D2180BE00366BE6 /* Info.plist */,
+			);
+			path = FiverrApp;
+			sourceTree = "<group>";
+		};
+		D887B4BA1D2184D700366BE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D887B4B81D21812C00366BE6 /* FiverrTableViewController.swift */,
+				D887B4C11D21895900366BE6 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D887B4BD1D21852B00366BE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D887B4BB1D21851C00366BE6 /* CategoryTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D887B4C01D21856200366BE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D887B4BE1D21855900366BE6 /* Category.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D887B4A21D2180BE00366BE6 /* FiverrApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887B4B51D2180BE00366BE6 /* Build configuration list for PBXNativeTarget "FiverrApp" */;
+			buildPhases = (
+				D887B49F1D2180BE00366BE6 /* Sources */,
+				D887B4A01D2180BE00366BE6 /* Frameworks */,
+				D887B4A11D2180BE00366BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiverrApp;
+			productName = FiverrApp;
+			productReference = D887B4A31D2180BE00366BE6 /* FiverrApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D887B49B1D2180BE00366BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Iron Yard_Joe Moss";
+				TargetAttributes = {
+					D887B4A21D2180BE00366BE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D887B49E1D2180BE00366BE6 /* Build configuration list for PBXProject "FiverrApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D887B49A1D2180BE00366BE6;
+			productRefGroup = D887B4A41D2180BE00366BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D887B4A21D2180BE00366BE6 /* FiverrApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D887B4A11D2180BE00366BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887B4B11D2180BE00366BE6 /* LaunchScreen.storyboard in Resources */,
+				D887B4AE1D2180BE00366BE6 /* Assets.xcassets in Resources */,
+				D887B4AC1D2180BE00366BE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D887B49F1D2180BE00366BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887B4A71D2180BE00366BE6 /* AppDelegate.swift in Sources */,
+				D887B4B91D21812C00366BE6 /* FiverrTableViewController.swift in Sources */,
+				D887B4C21D21895900366BE6 /* DetailViewController.swift in Sources */,
+				D887B4BC1D21851C00366BE6 /* CategoryTableViewCell.swift in Sources */,
+				D887B4BF1D21855900366BE6 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D887B4AA1D2180BE00366BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887B4AB1D2180BE00366BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D887B4AF1D2180BE00366BE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887B4B01D2180BE00366BE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D887B4B31D2180BE00366BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D887B4B41D2180BE00366BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D887B4B61D2180BE00366BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FiverrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.FiverrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D887B4B71D2180BE00366BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FiverrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.FiverrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D887B49E1D2180BE00366BE6 /* Build configuration list for PBXProject "FiverrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887B4B31D2180BE00366BE6 /* Debug */,
+				D887B4B41D2180BE00366BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D887B4B51D2180BE00366BE6 /* Build configuration list for PBXNativeTarget "FiverrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887B4B61D2180BE00366BE6 /* Debug */,
+				D887B4B71D2180BE00366BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D887B49B1D2180BE00366BE6 /* Project object */;
+}
